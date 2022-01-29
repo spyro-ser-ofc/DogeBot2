@@ -305,7 +305,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				teks = `🍒 *Hɪ* @${num.split('@')[0]}\n🍒 *Bɪᴏ* : *${thu.status}*\n🍒 *Mᴇᴍʙᴇʀs : ${memeg}*\n🍒 *Wᴇʟᴄᴏᴍᴇ Tᴏ ${mdata.subject}*\n🍒 *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*`
 
-				sendButImage(anu.jid, teks, `𝑺𝑲 𝑫𝑬𝑽𝑰𝑳`, img,but = [{buttonId:`getdescgc`, 
+				sendButImage(anu.jid, teks,`𝑺𝑷𝒀𝑹𝑶 𝑺𝑬𝑹`, img,but = [{buttonId:`getdescgc`, 
 
                buttonText:{displayText: 'WELCOME'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
@@ -327,7 +327,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				teks = `*Gᴏᴏᴅ Bʏᴇ* 👋\n@${num.split('@')[0]}\n*𝙷𝚘𝚙𝚎𝚏𝚞𝚕𝚕𝚢 𝚃𝚑𝚎𝚛𝚎 𝚆𝚘𝚗𝚝 𝙱𝚎 𝙱𝚞𝚛𝚍𝚎𝚗 𝙷𝚎𝚛𝚎 𝙰𝚗𝚢𝚖𝚘𝚛𝚎* 🍒`
 
-				sendButImage(anu.jid, teks, `𝑺𝑲 𝑫𝑬𝑽𝑰𝑳`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks,`𝑺𝑷𝒀𝑹𝑶 𝑺𝑬𝑹`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `GOODBYE !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
@@ -347,7 +347,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				teks = `「 PROMOTE - DETECTED 」\n\nName : @${num.split("@")[0]}\nStatus : Member -> Admin\nGroup : ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAWADEE KHA HAPPY NOW?`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
+				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `Enjoy monu?`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
 
 			} else if (anu.action == 'demote') {
 
@@ -367,7 +367,7 @@ dogexeon.on('group-participants-update', async (anu) => {
 
 				teks = `「 DEMOTE - DETECTED 」\n\nName : @${num.split("@")[0]}\nStatus : Admin -> Member\nGroup : ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `ANOTHER ONE BITE DUST`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
+				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `UMBII POYII MONE`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
 
 			}
 
